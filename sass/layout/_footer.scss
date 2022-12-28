@@ -1,0 +1,29 @@
+
+.footer{
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+&-flex{
+    display: flex;
+    align-items: baseline;
+   
+}
+
+
+&-call{
+    color: $whiteColor;
+    text-transform: uppercase;
+    
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 20px;
+
+}
+}

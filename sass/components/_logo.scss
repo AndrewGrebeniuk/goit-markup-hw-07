@@ -1,0 +1,24 @@
+
+ .logo{
+    display: block;
+    font-family: $secondaryFont;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+
+
+ &__forepart{
+    color: $accentColor;
+}
+
+  &__tail{
+    color: $blackColor;
+}
+
+ &__footer{
+    color: $whiteColor;
+}
+}
+

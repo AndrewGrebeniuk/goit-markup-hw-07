@@ -1,0 +1,47 @@
+.advantage{
+    padding-bottom: 0;
+    
+
+
+&__list{
+    display: flex;
+}
+
+&__element{
+    margin-right: 30px;
+}
+
+&__element--no-margin{
+    margin-right: 0;
+}
+
+&__icon{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+&__title{
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 10px; 
+    
+}
+
+
+&__desc{
+    color: $secondaryColor;
+    
+    font-size: 14px; 
+    line-height: 1.7;
+    letter-spacing: 0.03em;   
+}
+}
