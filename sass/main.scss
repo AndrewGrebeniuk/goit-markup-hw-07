@@ -1,13 +1,14 @@
-
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/placeholders";
 @import "./base/common";
 @import "./base/reset";
 @import "./components/container";
-@import "./components/section";
-@import "./components/modal";
 @import "./components/logo";
+@import "./components/title";
+@import "./components/modal";
 @import "./components/socmedlist";
+@import "./layout/portfolio";
 @import "./layout/activity";
 @import "./layout/address-nav";
 @import "./layout/address";
@@ -19,13 +20,6 @@
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/navigation";
-@import "./layout/portfolio";
 @import "./layout/signupform";
 @import "./layout/team";
-
-
-
-
-
-
 

@@ -1,9 +1,9 @@
 .checkbox{
     margin-top: 20px;
     margin-bottom: 30px;
-}
 
-.checkbox__label{
+
+ &__label{
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -18,12 +18,12 @@
  }
  
 
-.checkbox__box{
+ &__box{
     appearance: none;
 }
 
 
-.checkbox__box:checked + .checkbox__icon-tick{
+ &__box:checked +  &__icon-tick{
     border-color: transparent;
     background-color: $accentColor;
     background-origin: border-box;
@@ -31,7 +31,7 @@
 
 }
 
-.checkbox__icon-tick{
+ &__icon-tick{
     display: inline-block;
 
     border: 2px solid #212121;
@@ -41,14 +41,14 @@
     
 }
 
-.checkbox__link{
+ &__link{
     color: $accentColor;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     
 }
 
-.checkbox__button{
+ &__button{
      @extend %button;
 
 
@@ -63,4 +63,5 @@
    
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
  
+    }
 }

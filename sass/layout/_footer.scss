@@ -3,16 +3,16 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
 
-
-&-flex{
+.footer-flex{
     display: flex;
     align-items: baseline;
    
 }
 
 
-&-call{
+.footer-call{
     color: $whiteColor;
     text-transform: uppercase;
     
@@ -25,5 +25,4 @@
 
     margin-bottom: 20px;
 
-}
-}
+  }
